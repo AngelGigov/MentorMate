@@ -3,6 +3,7 @@ if (num % 2) == 0:
     print("{0} is Even number". format(num))
     breakpoint()
 elif (num <= 1 or num >= 10000):
+    print("Entered number is out of range, please enter number in diapasone 1 to 10000")
     breakpoint()
 else:
     pass
