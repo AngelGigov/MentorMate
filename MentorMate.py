@@ -2,6 +2,8 @@ num = int(input("Please Enter Odd Number in diapasone of 1 to 10000: "))
 if (num % 2) == 0:
     print("{0} is Even number". format(num))
     breakpoint()
+elif (num <= 1 or num >= 10000):
+    breakpoint()
 else:
     pass
 for row in range(num + 1):
