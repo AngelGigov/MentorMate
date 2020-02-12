@@ -7,6 +7,8 @@ elif (num <= 1 or num >= 10000):
     breakpoint()
 else:
     pass
+
+
 for row in range(num + 1):
     for col in range(num*10):
         if (row+col >= 6*num and row+col <= 7*num-1) or (col-row >= 6*num and col-row <= 7*num-1) or (row+col >= 8*num and row+col <= 9*num-1) or (col-row >= 8*num and col-row <= 9*num-1):
